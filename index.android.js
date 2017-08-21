@@ -7,11 +7,12 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
-  StyleSheet,
-  Text,
-  View
 } from 'react-native';
-import TestLV from './App/Component/TestLV';
+
+// import TestLV from './App/Component/TestLV';
+// import Login from './App/Component/Login';
+ import App from './App/Component/App';
+
 
 // export default class AwesomeProject extends Component {
 //   render() {
@@ -51,4 +52,4 @@ import TestLV from './App/Component/TestLV';
 //   },
 // });
 
-AppRegistry.registerComponent('AwesomeProject', () => TestLV);
+AppRegistry.registerComponent('AwesomeProject', () => App );
